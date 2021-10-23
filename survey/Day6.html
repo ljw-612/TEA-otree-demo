@@ -1,0 +1,30 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{##}
+{#</body>#}
+{#</html>#}
+
+{{ block title }}Day6/10{{ endblock }}
+{{ block content }}
+
+
+
+<p><b>Current price</b>: {{ current_price }}</p>
+
+<p><b>Cash</b>: {{ US }}</p>
+
+<p><b>Holding</b>: {{ ETH }} </p>
+<p><b>Value of total asset</b>: {{ value_total_asset }} </p>
+
+<img src = 'https://s3.bmp.ovh/imgs/2021/10/52006fb4f54fbf79.png' />
+
+{{ formfields }}
+
+{{ next_button }}
+
+{{ endblock }}
